@@ -50,7 +50,11 @@ select,select:focus{
     src:local("?"),url(../fonts/NanumSquareB.woff) format("woff")
 }
 @font-face{
-    font-family:NanumSquareOTF;
+    font-family:NanumSquareOTF_acL;
+    src:url(../fonts/NanumSquareOTF_acL.otf);
+}
+@font-face{
+    font-family:NanumSquareOTF_acR;
     src:url(../fonts/NanumSquareOTF_acR.otf);
 }
 
