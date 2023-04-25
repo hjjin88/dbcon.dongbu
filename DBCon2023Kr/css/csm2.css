@@ -23,7 +23,7 @@
    background: #41617D !important; 
  }
 
-
+ html { overflow-y:scroll; }
 
 /* common */
 .mb20 {margin-bottom:20px !important;}
