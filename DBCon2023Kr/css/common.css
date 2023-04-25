@@ -603,7 +603,7 @@ input.upload_text{
     height:auto!important
 }
 .scroll_wrap{
-    overflow-x:visible;
+    overflow-x:scroll;
 }
 .scroll_wrap>table{
     min-width:1000px
