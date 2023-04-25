@@ -609,7 +609,9 @@ input.upload_text{
     min-width:1000px
 }
 .scroll_wrap::-webkit-scrollbar{
-    width:2px
+    width:2px;
+    /* 테스트 */
+    height: 10px;
 }
 .scroll_wrap::-webkit-scrollbar-track{
     background:#eee
