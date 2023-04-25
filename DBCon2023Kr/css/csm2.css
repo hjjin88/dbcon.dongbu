@@ -300,7 +300,6 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .gov5 .board_list .in-table ul {margin: 20px -21px -21px 0;}
 .gov5 .board_list .in-table li {display: flex;align-items: center;justify-content: center;height: 66px;text-align: center;border: 1px solid #ddd;}
 .gov5 .board_list .in-table li+li{margin-top: -1px;}
-.gov5 .sec3 .board_list th{font-weight: 400;}
 .gov5 .sec4 .box{padding-top: 80px;}
 .gov5 .sec5 .tit_box dd{padding-top: 0px;}
 .gov5 .sec5 .tit_box dd:before{display: none;}

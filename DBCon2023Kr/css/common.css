@@ -603,15 +603,14 @@ input.upload_text{
     height:auto!important
 }
 .scroll_wrap{
-    overflow-x:visible;
+    overflow-x:scroll;
+    overflow-scrolling : touch;
 }
 .scroll_wrap>table{
     min-width:1000px
 }
 .scroll_wrap::-webkit-scrollbar{
     width:2px;
-    /* 테스트 */
-    height: 10px;
 }
 .scroll_wrap::-webkit-scrollbar-track{
     background:#eee
