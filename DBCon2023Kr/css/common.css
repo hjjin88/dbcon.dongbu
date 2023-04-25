@@ -604,12 +604,8 @@ input.upload_text{
 }
 .scroll_wrap{
     overflow-x:scroll;
-    /* overflow-scrolling : touch; */
+    overflow-scrolling : touch;
 }
-/* 테스트 */
-::-webkit-scrollbar-track {
-    height: 5px !important;
-  }
 .scroll_wrap>table{
     min-width:1000px
 }
@@ -617,7 +613,8 @@ input.upload_text{
     width:2px;
 }
 .scroll_wrap::-webkit-scrollbar-track{
-    background:#eee
+    background:#eee;
+    height: 5px !important;
 }
 .scroll_wrap::-webkit-scrollbar-thumb{
     background:#ccc
