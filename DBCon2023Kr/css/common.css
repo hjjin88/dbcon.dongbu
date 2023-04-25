@@ -63,13 +63,13 @@ h1,h2,h3,h4,h5,h6{
 html{
     -webkit-text-size-adjust:none; 
     overflow-y:scroll;
-    font-size:62.5%
+    font-size:62.5%;
 }
 body,html{
-    height:100%
+    height:100%;
 }
 body{
-    font-size:1.7rem
+    font-size:1.7rem;
 }
 .txt_cn,.word_c,input[type=password]{
     font-family:'맑은 고딕'
