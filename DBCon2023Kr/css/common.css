@@ -610,6 +610,7 @@ input.upload_text{
 }
 .scroll_wrap::-webkit-scrollbar{
     width:2px;
+    height:3px;
 }
 .scroll_wrap::-webkit-scrollbar-track{
     background:#eee !important;
