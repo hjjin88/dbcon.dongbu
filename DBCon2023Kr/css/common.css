@@ -77,10 +77,10 @@ body{
 .line_btn,select,textarea,th,tr{
     font-size:1.5rem
 }
-/* 추가 */
+/* 추가
 td{
     font-size:1.5rem
-}
+} */
 fieldset,img{
     border:0;
     vertical-align:top
