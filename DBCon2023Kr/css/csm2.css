@@ -98,6 +98,13 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .txt_info.top {margin-bottom:15px;text-align:right;}
 .txt_info + .txt_info{margin-top:12px;}
 
+.list_dot_02{position: relative;}
+.list_dot_02 li{padding-left: 9px;position: relative;letter-spacing: -1.02px;}
+.list_dot_02 li::before{content: '·';position: absolute;top: 0;left: 0;}
+
+
+
+
 /* double table  */
 .bdr0{border-right: none !important;}
 .absorp_top{padding-left: 0 !important;}
@@ -220,8 +227,6 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .esg2 .sec3 .faq-list4 li:nth-child(2) .board_list tr td:nth-child(2),
 .esg2 .sec3 .faq-list4 li:nth-child(2) .board_list tr td:nth-child(3){padding:20px 10px;}
 .esg2 .sec3 .faq-list4 li.content-visible .faq-content.mobile{display: none !important;}
-.esg2 .sec3 .board_list td ul.list_dot li::before{width: 1px;height: 1px;border-radius: 0;}
-.esg2 .sec3 .list_dot li::before{top: 7px;} 
 .esg3 .sec1 .img_box{margin:80px 0;}
 .esg3 .sec1 .board_list td{padding:5px 20px;}
 .esg3 .sec1 thead tr th:first-child, .esg3 .sec1 tbody tr td:first-child{width: 300px;}
