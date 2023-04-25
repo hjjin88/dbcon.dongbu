@@ -98,16 +98,6 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .txt_info.top {margin-bottom:15px;text-align:right;}
 .txt_info + .txt_info{margin-top:12px;}
 
-
-/* .list-dot_02{position: relative;}
-.list_dot_02 li{padding-left: 9px;position: relative;letter-spacing: -1.02px;}
-.list_dot_02 li::before{content: '·';position: absolute;top: 0;left: 0;} */
-
-/* .list_dot_03{position: relative;}
-.list_dot_03 li{padding-left: 9px;position: relative;letter-spacing: -1.02px;}
-.list_dot_03 li::before{content: '-';position: absolute;top: 0;left: 0;} */
-
-
 [class^="list-dot"]{position: relative;}
 [class^="list-dot"] li{padding-left: 9px;position: relative;letter-spacing: -1.02px;}
 [class^="list-dot"] li::before{content: '·';position: absolute;top: 0;left: 0;}
@@ -310,6 +300,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .gov5 .board_list .in-table ul {margin: 20px -21px -21px 0;}
 .gov5 .board_list .in-table li {display: flex;align-items: center;justify-content: center;height: 66px;text-align: center;border: 1px solid #ddd;}
 .gov5 .board_list .in-table li+li{margin-top: -1px;}
+.gov5 .sec3 .board_list th{font-weight: 400;}
 .gov5 .sec4 .box{padding-top: 80px;}
 .gov5 .sec5 .tit_box dd{padding-top: 0px;}
 .gov5 .sec5 .tit_box dd:before{display: none;}
