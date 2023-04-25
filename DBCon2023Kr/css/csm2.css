@@ -98,12 +98,20 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .txt_info.top {margin-bottom:15px;text-align:right;}
 .txt_info + .txt_info{margin-top:12px;}
 
-.list_dot_02{position: relative;}
+
+/* .list-dot_02{position: relative;}
 .list_dot_02 li{padding-left: 9px;position: relative;letter-spacing: -1.02px;}
-.list_dot_02 li::before{content: '·';position: absolute;top: 0;left: 0;}
+.list_dot_02 li::before{content: '·';position: absolute;top: 0;left: 0;} */
+
+/* .list_dot_03{position: relative;}
+.list_dot_03 li{padding-left: 9px;position: relative;letter-spacing: -1.02px;}
+.list_dot_03 li::before{content: '-';position: absolute;top: 0;left: 0;} */
 
 
-
+[class^="list-dot"]{position: relative;}
+[class^="list-dot"] li{padding-left: 9px;position: relative;letter-spacing: -1.02px;}
+[class^="list-dot"] li::before{content: '·';position: absolute;top: 0;left: 0;}
+[class^="list-dot"][class*="-02"] li::before{content: '-';}
 
 /* double table  */
 .bdr0{border-right: none !important;}
@@ -280,8 +288,8 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .gov4_3 ul{display: flex;gap: 24px;}
 .gov4_3 ul li h4{margin: 27px 0 30px;font-size: 2rem;font-weight: 700;}
 .gov4_3 ul li dl dt{margin-bottom: 20px;font-weight: 700;}
-.gov4_3 ul li p{margin-bottom: 0;}
-.gov4_3 ul li p + p{margin-top: 41px;}
+.gov4_3 ul li .list-dot-02{margin-bottom: 0;color: #555;}
+.gov4_3 ul li .list-dot-02 + .list-dot-02{margin-top: 41px;}
 .gov4_3 article{padding: 0;border: 0;}
 .gov4_4 section{background-image:unset; padding: 0;}
 .gov4_4 .simg_report{text-align: left;}
@@ -775,7 +783,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .gov4_2 .simg_team p:nth-of-type(1)::after{margin: 40px auto 40px;}
     .gov4_3 ul{flex-direction: column;gap: 60px;}
     .gov4_3 ul li h4{margin: 20px 0;}
-    .gov4_3 ul li p + p{margin-top: 20px;}
+    .gov4_3 ul li .list-dot-02 + .list-dot-02{margin-top: 20px;}
     .gov4_4 .simg_report .btn_box{margin: 15px auto 0;}
     .gov4_4 .simg_report .p_btn{width: 167px!important;height: 50px;}
     .gov4_5.category_nav{margin: 0 0 40px;}
