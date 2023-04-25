@@ -606,6 +606,10 @@ input.upload_text{
     overflow-x:scroll;
     /* overflow-scrolling : touch; */
 }
+/* 테스트 */
+::-webkit-scrollbar-track {
+    height: 5px !important;
+  }
 .scroll_wrap>table{
     min-width:1000px
 }
