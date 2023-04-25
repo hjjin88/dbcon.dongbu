@@ -596,15 +596,14 @@ input.upload_text{
 .thumbnail .landscape{
     width:auto!important;
     max-width:none!important;
-    height:100%!important
+    height:100%!important;
 }
 .thumbnail .portrait{
     width:100%!important;
-    height:auto!important
+    height:auto !important;
 }
 .scroll_wrap{
-    overflow-x:scroll;
-    -webkit-overflow-scrolling: touch;
+    overflow-x:scroll !important;
 }
 .scroll_wrap>table{
     min-width:1000px
@@ -613,13 +612,13 @@ input.upload_text{
     width:2px;
 }
 .scroll_wrap::-webkit-scrollbar-track{
-    background:#eee;
+    background:#eee !important;
 }
 .scroll_wrap::-webkit-scrollbar-thumb{
-    background:#ccc
+    background:#ccc !important;
 }
 .scroll_wrap::-webkit-scrollbar-thumb:window-inactive{
-    background:#ccc
+    background:#ccc !important;
 }
 .main_popup{
     margin:0 auto;
