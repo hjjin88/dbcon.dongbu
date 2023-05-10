@@ -474,6 +474,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .soc6 .sec2 .img_box{margin-top: 80px;}
 .soc6 .sec2{padding-bottom: 0 !important; border: 0 !important;}
 .soc6 .sec3 .con .scroll_wrap:last-child{margin-top: 80px;}
+.soc6 .sec2 .process{display: flex;justify-content: space-between;width: 960px;margin: 16px auto 0;padding-left: 2.3%;font-size: 1.5rem;letter-spacing: -0.9px;}
 
 .step_list.ty2{gap: 0 63px;}
 .step_list.ty2 dl dt{margin-bottom: 12px;font-weight: 400;}
@@ -666,6 +667,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .soc5 .sust_list .info_img .pc{display: block;}
     .soc5 .sust_list .info_img .mobile{display: none;}
     .soc6 .full + .full {padding-top: 0 !important;}
+    .soc6 .sec2 .process{display: none;}
     .soc6 .sec3 .board_tit{margin-bottom: 20px;}
     .soc6 .sec3 .info_img{padding-top: 40px;}
 }
