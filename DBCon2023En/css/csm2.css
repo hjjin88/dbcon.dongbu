@@ -463,10 +463,11 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .soc5 .sec1 .ct_tit2{margin-bottom: 111px;}
 .soc5 .sec1 .list_dot{display: flex;flex-direction: column;gap: 8px;}
 .soc5 .sec1 .list_dot dt{font-weight: 700;}
+.soc5 .sec1 .list_dot dd{padding-left:1rem; text-indent:-1rem;}
 .soc5 .sec2 .img_box{margin: 80px auto 40px;}
 .soc5 .sec2 .goal{width: 80%; text-align:left;}
 .soc5 .sec2 .goal ul{padding-left:50px; padding-right:50px;}
-.soc5 .sec2 .goal ul li{font-size: 2.2rem;letter-spacing: -.6px;line-height: 1.6;padding-left:10px; text-indent:-10px;}
+.soc5 .sec2 .goal ul li{font-size: 2.2rem;letter-spacing: -.6px;line-height: 1.6;padding-left:12px; text-indent:-12px;}
 .soc5 .sust_list dd>div{margin-top: 80px;padding-top: 80px;border-top: 1px solid #ddd;}
 .soc5 .sust_list dd>div:first-child{margin-top: 0;padding-top: 0;border: 0;}
 .soc5 .sust_list .board_tit{margin-bottom: 50px;}
