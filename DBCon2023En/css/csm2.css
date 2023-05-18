@@ -357,7 +357,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .env3 .sec1 .sub_text{margin-top:80px;}
 .env3 .sec1 .img_list li{display: flex;flex-direction: column-reverse;gap: 10px;}
 .env3 .sec1 .img_list p.top{margin-bottom: 0; font-size:1.5rem;}
-.env3 .sec1 .img_list, .env3 .sec3 .img_list{justify-content: center;} 
+.env3 .sec1 .img_list, .env3 .sec3 .img_list{justify-content: center; align-items: flex-start;} 
 .soc4 .sec2 .img_list{flex-wrap:unset;}
 .env3 .sec3 .img_list{margin-top:57px;}
 .env3 .sec3 .img_list img{border: 1px solid rgba(0, 0, 0, 0.1);box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.059);}
