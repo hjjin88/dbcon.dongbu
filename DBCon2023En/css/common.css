@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 body,button,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,select,td,textarea,th,ul{
-    font-family:NanumSquareR,'맑은 고딕','Malgun Gothic',돋움,Dotum,'Apple SD Gothic Neo',sans-serif
+    font-family:Arial, sans-serif;
 }
 a,body{
     color:#555
