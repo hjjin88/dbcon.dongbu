@@ -42,6 +42,12 @@ span.br { display:block;}
 	.header .nav_box li .twoD { padding-left:0;}
 }
 
+@media (max-width: 1150px) {
+	.header .nav_box li.oneD > a { padding:0 12px; font-size:1.7rem;}
+	.header .nav_box li .twoD { padding-left:12px;}
+	.header .nav_box li .twoD a { font-size:1.3rem;}
+}
+
 @media (max-width: 1200px) {
 	.header .nav_box { margin-left:220px;}
 	.header .nav_box li.oneD { padding:0 15px;}
