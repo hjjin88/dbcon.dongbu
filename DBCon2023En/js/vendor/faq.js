@@ -10,6 +10,12 @@ jQuery(document).ready(function($){
 		faqsCategories = faqsCategoriesContainer.find('a'),
 		closeFaqsContainer = $('.cd-close-panel');
 	
+	//show faq content clicking on faqTrigger
+	faqTrigger.on('click', function(event){
+		event.preventDefault();
+		$(this).next('.faq-content').slideToggle(200).end().parent('li').toggleClass('content-visible');
+	});
+
 	//select a faq section 
 	faqsCategories.on('click', function(event){
 		event.preventDefault();
@@ -34,11 +40,7 @@ jQuery(document).ready(function($){
 		closePanel(event);
 	});
 
-	//show faq content clicking on faqTrigger
-	faqTrigger.on('click', function(event){
-		event.preventDefault();
-		$(this).next('.faq-content').slideToggle(200).end().parent('li').toggleClass('content-visible');
-	});
+
 
 	//update category sidebar while scrolling
 	$(window).on('scroll', function(){
