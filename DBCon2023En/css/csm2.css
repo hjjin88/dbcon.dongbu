@@ -88,6 +88,7 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
 .board_list td.txtL{text-align:left;}
 .board_list td ul li{text-align:left; padding-left:0.8rem; text-indent: -0.8rem;}
 .gov2 .sec1 .board_list td ul li{padding-left:0; text-indent:0; letter-spacing:-0.8px;}
+.gov2 .sec1 .board_list td{padding:20px 15px;}
 .board_list td ul.list_dot li{padding-left:9px; text-indent: 0;}
 .board_list td ul.list_dot li::before{width:2px;height:2px;border-radius:0;}
 .board_list .lineBt,
