@@ -677,9 +677,9 @@ i.cjk{font-family: Arial, Helvetica, sans-serif;font-style:normal;}
     .soc3 .sec2 .tit_box dd::before{display:block;}
     .soc3 .sec2 .tit_box dd{padding-top: 20px;}
     .soc3 .sec2 .info_img{margin-top:40px;padding-top:60px;}
-    .soc3 .sec2 .info_img .tit_sm{margin-bottom: 40px}
+    .soc3 .sec2 .info_img .tit_sm{margin-bottom: 40px;}
     .soc3 .sec2 .info_img ul li span{margin-top: 20px;}
-    .soc3 .sec2 .info_img ul{gap:20px}
+    .soc3 .sec2 .info_img ul{gap:10px;}
     .soc4 .list_dot li::before{display: block;}
     .soc4 .sec3 .list_dot li{padding-left: 9px;}
     .soc4 .sec3 .list_dot.right.gray li::after, .soc4 .sec3 .list_dot li::before{display: block;}
